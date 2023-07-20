@@ -24,12 +24,16 @@ Next steps are based on platform which you want to choose.
 
 ### Android Installation
 
-1. Connect your device to computer or run simulator.
-2. Make sure that device is visible for adb:
+1. Run chmod command in project folder:
+   ```sh
+   chmod 777 src/main/resources/android-set-up.sh
+   ```
+2. Connect your device to computer or run simulator.
+3. Make sure that device is visible for adb:
   ```sh
    adb devices
    ```
-3. Run any test from project on your computer.
+4. Run any test from project on your computer.
 
 ### iOS Installation
 
